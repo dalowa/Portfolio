@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
 ul {
     list-style: none;
 }
@@ -53,30 +55,60 @@ nav {
     color: #CCD6F6;
     position: fixed;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 0;
     top: 0;
     right: 0;
     z-index: 1;
     box-shadow: 0.5em 0em 1em 1em #000;
-    transition: width 2s ease-in-out;   
+    transition: width 0.3s ease-in-out;   
 }
 
 .menu ul {
-    margin-left: 3em;
-    font-size: 1.2em;
+    padding: 0;
+    font-size: 1.1em;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2em;
 }
+.menu ul li p {
+    color: #64FFDA;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    font-size: 0.8em;
 
-
+}
+a {
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+}
+.menu ul li {
+    
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.menu ul li span {
+    margin-top: 2em;
+    border-radius: 0.3em;
+    color: #64FFDA;
+    font-size: 0.9em;
+    padding: 1em 3em;
+    border: #64FFDA solid 1px;;
+}
+.noshow {
+    visibility: hidden;
+}
 /* ------------- sliding menu ------------------ */
 .hidden {
-    width: 1em;
-    display: none;
+    width: 0em;
+    box-shadow: none;
+    
 }
 
 .visible {
@@ -89,18 +121,18 @@ nav {
 .burger-bar.clicked:nth-child(1){
     transform: rotate(45deg) translate(0.5em, .2em);
     width: 2em;
-    transition: ease-out 0.5s;
+    transition: ease-out 0.3s;
 }
 
 .burger-bar.clicked:nth-child(2){
     transform: scale(0.1);
-    transition: ease-out 0.5s;
+    transition: ease-out 0.3s;
 }
 
 .burger-bar.clicked:nth-child(3){
     transform: rotate(135deg) translate(-0.6em, 0.3em);
     width: 2em;
-    transition: ease-out 0.5s;
+    transition: ease-out 0.3s;
 }
 
 /* unclicked */
