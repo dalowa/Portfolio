@@ -1,0 +1,110 @@
+ul {
+    list-style: none;
+}
+
+nav {
+    width: 100%;
+    
+    background-color: #0A192FE6;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger-menu {
+    height: 100%;
+    width: 4em;
+    height: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 1.8em 1.8em;
+    cursor: pointer;
+    z-index: 15;
+    
+    
+}
+
+.burger-bar:nth-child(1) {
+    width: 2.3em;
+    height: 0.14em;
+    background-color: #64FFDA;
+    
+}
+.burger-bar:nth-child(2) {
+    width: 1.95em;
+    height: 0.12em;
+    background-color: #64FFDA;
+    
+}
+.burger-bar:nth-child(3) {
+    width: 1.5em;
+    height: 0.14em;
+    background-color: #64FFDA;
+    
+}
+
+.menu {
+    background-color: #112240;
+    height: 100vh;
+    color: #CCD6F6;
+    position: fixed;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0.5em 0em 1em 1em #000;
+    transition: width 2s ease-in-out;   
+}
+
+.menu ul {
+    margin-left: 3em;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+/* ------------- sliding menu ------------------ */
+.hidden {
+    width: 1em;
+    display: none;
+}
+
+.visible {
+    width: 18em;
+    display: flex;
+}
+
+/* ----- animations--------- */
+/* clicked */
+.burger-bar.clicked:nth-child(1){
+    transform: rotate(45deg) translate(0.5em, .2em);
+    width: 2em;
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(2){
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(3){
+    transform: rotate(135deg) translate(-0.6em, 0.3em);
+    width: 2em;
+    transition: ease-out 0.5s;
+}
+
+/* unclicked */
+.burger-bar.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
