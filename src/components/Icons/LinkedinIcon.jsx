@@ -2,7 +2,7 @@ const LinkedinIcon = () => {
 	return (
 		<>
 			<a
-				href='https://www.linkedin.com/in/bchiang7'
+				href='https://www.linkedin.com/in/david-urbano-82a151223/'
 				aria-label='Linkedin'
 				rel='noopener noreferrer'
 				target='_blank'

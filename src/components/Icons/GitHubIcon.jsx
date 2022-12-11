@@ -2,7 +2,7 @@ const GitHubIcon = () => {
 	return (
 		<>
 			<a
-				href='https://github.com/bchiang7'
+				href='https://github.com/David-UM'
 				aria-label='GitHub'
 				rel='noopener noreferrer'
 				target='_blank'

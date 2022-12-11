@@ -2,7 +2,7 @@ const InstagramIcon = () => {
 	return (
 		<>
 			<a
-				href='https://www.instagram.com/bchiang7'
+				href='https://www.instagram.com/david.08.12/'
 				aria-label='Instagram'
 				rel='noopener noreferrer'
 				target='_blank'

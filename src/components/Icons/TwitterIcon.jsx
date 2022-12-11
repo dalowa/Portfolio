@@ -2,7 +2,7 @@ const TwitterIcon = () => {
 	return (
 		<>
 			<a
-				href='https://twitter.com/bchiang7'
+				href='https://twitter.com/David_urbano_'
 				aria-label='Twitter'
 				rel='noopener noreferrer'
 				target='_blank'
