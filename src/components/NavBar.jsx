@@ -24,14 +24,14 @@ const NavBar = () => {
 		<>
 			<nav>
 				<Logo></Logo>
+			</nav>
+
+			<div className={menu_class}>
 				<div className='burger-menu' onClick={updateMenu}>
 					<div className={burger_class}></div>
 					<div className={burger_class}></div>
 					<div className={burger_class}></div>
 				</div>
-			</nav>
-
-			<div className={menu_class}>
 				<ul className={luclass}>
 					<li>
 						<p>01.</p>

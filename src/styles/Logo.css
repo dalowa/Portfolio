@@ -4,5 +4,7 @@
     margin: 0em 1.5em;
     color: #64FFDA;
     display: inline;
-    
+    top: 1.6em;
+    left: 0;
+    position: fixed;
 }

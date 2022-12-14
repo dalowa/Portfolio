@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+
+.PresentationS-container {
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PresentationS-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    max-width: 330px;
+}
+
+
+.PresentationS-text-container h1 {
+    color: #59E3C5;
+    margin: 0;
+    
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+    font-family: 'Roboto Mono', monospace;
+    width: 90%;
+
+    
+}
+
+.PresentationS-text-container h2 {
+    color: #CCD6F6;
+    font-size: 2.2em;
+    margin: 0;
+    margin-bottom: 0.2em;
+    width: 90%;
+}
+
+.PresentationS-text-container h3 {
+    color: #8892B0;
+    font-size: 1.9em;
+    margin: 0;
+    margin-bottom: 1em;
+    width: 100%;
+}
+.PresentationS-text-container p {
+    color: #7e88a5;
+    margin: 0;
+    width: 90%;
+    margin-bottom: 5em;
+}
