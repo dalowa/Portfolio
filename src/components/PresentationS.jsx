@@ -3,7 +3,7 @@ import './../styles/PresentationS.css';
 const PresentationS = () => {
 	return (
 		<>
-			<div></div>
+			<div className=''></div>
 		</>
 	);
 };
