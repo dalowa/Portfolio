@@ -10,7 +10,7 @@ nav {
     background-color: #0A192FE6;
     display: flex;
     justify-content: flex-start;
-    padding: 0em;
+    height: 5.5em;
     justify-content: space-between;
     align-items: center;
 }
@@ -62,7 +62,7 @@ nav {
     padding: 0;
     top: 0;
     right: 0;
-    z-index: 1;
+    z-index: 5;
     box-shadow: 0.5em 0em 1em 1em #000;
     transition: width 0.3s ease-in-out;   
 }

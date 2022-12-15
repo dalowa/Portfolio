@@ -4,21 +4,33 @@ const AboutMeS = () => {
 	return (
 		<>
 			<section className='AboutMeS-container'>
-				<span>
-					<h2></h2>
-					<p></p>
+				<div className='AboutMeS-text'>
+					<h2>About Me</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+						dolor felis. Ut semper leo vitae fringilla ultricies. Sed rhoncus
+						orci non sapien eleifend, non laoreet mi viverra. Aenean vel
+						pellentesque felis.
+					</p>
 					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript (ES6+)</li>
+						<li>React</li>
+						<li>Redux</li>
 					</ul>
-				</span>
-				<div>
-					<img />
+				</div>
+				<div className='AboutMeS-image-container'>
+					<div className='AboutMeS-image-capa'>
+						<img
+							src='https://raw.githubusercontent.com/David-UM/Portfolio/main/src/assets/2022Profile.jpeg'
+							alt='Foto'
+						/>
+						<div></div>
+					</div>
 				</div>
 			</section>
 		</>
 	);
 };
+export default AboutMeS;

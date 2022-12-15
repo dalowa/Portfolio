@@ -1,0 +1,75 @@
+.AboutMeS-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.AboutMeS-container .AboutMeS-text {
+    color: #828daa;
+    margin: 0 1em
+}
+
+.AboutMeS-container .AboutMeS-text ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+    font-size: 0.9em;
+}
+
+.AboutMeS-container .AboutMeS-text ul li::before{
+    content: '▹';
+    color: #64FFDA;
+    left: 0px;
+    margin-right: 0.5em;
+}
+.AboutMeS-container .AboutMeS-text h2 {
+    margin-bottom: 1.5em;
+    color: #CCD6F6;
+    font-size: 1.3em;
+}
+
+.AboutMeS-container .AboutMeS-text h2::before {
+    content: '01.';
+    font-size: 1em;
+    color: #64FFDA;
+}
+
+
+.AboutMeS-container .AboutMeS-image-container {
+    
+    margin: 2em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AboutMeS-container .AboutMeS-image-container .AboutMeS-image-capa {
+    width: 15em;
+    height: 15em;
+    position: relative;
+}
+.AboutMeS-container .AboutMeS-image-container .AboutMeS-image-capa:hover > div {
+    top: 10px;
+    left: 10px;
+}
+.AboutMeS-container .AboutMeS-image-container .AboutMeS-image-capa img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: transparent solid 3px;
+    border-radius: 0.5em;
+    z-index: 2;
+}
+.AboutMeS-container .AboutMeS-image-container .AboutMeS-image-capa div{
+    width: 100%;
+    height: 100%;
+    border: #64FFDA solid 3px;
+    position: absolute;
+    border-radius: 0.5em;
+    transition: all 300ms ease-in-out;
+    top: 15px;
+    left: 15px;
+    z-index: 0;
+}
