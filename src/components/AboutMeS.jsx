@@ -12,6 +12,9 @@ const AboutMeS = () => {
 						orci non sapien eleifend, non laoreet mi viverra. Aenean vel
 						pellentesque felis.
 					</p>
+					<span>
+						Here are a few technologies I’ve been working with recently:
+					</span>
 					<ul>
 						<li>HTML</li>
 						<li>CSS</li>

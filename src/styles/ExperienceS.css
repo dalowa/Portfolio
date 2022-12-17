@@ -1,0 +1,80 @@
+.ExperienceS-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.ExperienceS-div {
+    width: 100%;
+    max-width: 450px;
+    
+}
+
+.ExperienceS-div h2 {
+    color: #CCD6F6;
+    text-align: start;
+    font-size: 1.3em;
+}
+
+.ExperienceS-div h2::before {
+    content: '02.';
+    color: #64FFDA;
+    margin: 0 0em 0 1em;
+}
+.Options {
+    
+    
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.Options span {
+    box-sizing: border-box;
+    color: #64FFDA;
+    
+    width: 10em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.Options-visible {
+    border-bottom: #64FFDA 2px solid;
+}
+.ExperienceS-text {
+    color: #7D87A5;
+    margin: 2.5em 2em;
+    display: none;
+}
+
+.ExperienceS-text h3 {
+    color: #CCD6F6;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.Experience-date {
+    margin-top: 0.25em;
+    font-size: 0.8em;
+}
+
+
+.ExperienceS-text ul {
+    
+    padding: 1em;
+}
+
+.ExperienceS-text ul li {
+    padding-left: 0em;
+    list-style:disc;
+    
+}
+
+.Description-visible {
+    display: inherit;
+}
