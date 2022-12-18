@@ -12,3 +12,16 @@
 
     
 }
+
+html {
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    background-color: #121212;
+  }
