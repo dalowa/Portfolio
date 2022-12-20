@@ -1,6 +1,17 @@
 .WorkS-container {
     width: 100%;
     display: flex;
+    flex-direction: column;
+}
+.WorkS-container h2 {
+  color: #CCD6F6;
+  text-align: start;
+  font-size: 1.3em;
+}
+.WorkS-h2::before {
+  content: '03.';
+  color: #64FFDA;
+  margin: 0 0em 0 1em;
 }
 
 a {
@@ -147,4 +158,28 @@ a {
       width: auto;
       height: 100%;
     }
+  }
+  .projects-icons {
+    display: flex;
+    gap: 0em;
+  }
+  .ProjectLink {
+    width: 1.5em;;
+  }
+  .OtherProjects-container {
+    width: 100%;
+  display: flex ;
+  flex-direction: column;
+  
+  align-items: center;
+  }
+  .OtherProjects-container h2{
+    margin: 0;
+    font-size: 1.2em;
+  }
+  .OtherProjects-container p {
+    margin: 0;
+    margin-top: 1em;
+    color: #64FFDA;
+    font-size: 0.8em;
   }

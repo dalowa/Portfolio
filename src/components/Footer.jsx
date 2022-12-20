@@ -10,7 +10,7 @@ const Footer = () => {
 			<footer>
 				<ul>
 					<li>
-						<GitHubIcon />
+						<GitHubIcon Link='https://www.duolingo.com/learn' Class='TheIcon' />
 					</li>
 					<li>
 						<InstagramIcon />
