@@ -1,0 +1,53 @@
+.Formulario-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+
+.Formulario {
+    width: 80%;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+.Formulario label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+    
+}
+.Formulario label input, textarea{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 1em;
+    width: 100%;
+    background-color: #112240;
+    color: #C1CBEB;
+    border: 0;
+    border-radius: 1em;
+}
+.Formulario label p {
+    color: #64FFDA;
+    margin: 0;
+}
+
+.Formulario label:nth-child(4){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Formulario label button {
+    width: 5em;
+    background-color: #0A192F;
+    border: #64FFDA solid 1px;
+    padding: 0.5em 1em;
+    color: #64FFDA;
+    border-radius: 0.5em;
+}

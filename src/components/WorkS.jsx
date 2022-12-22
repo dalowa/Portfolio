@@ -31,7 +31,7 @@ const WorkS = () => {
 					<p className='OtherProjects-container-p'>
 						<a>view the archive</a>
 					</p>
-					<div>
+					<div className='OtherProjects-boxes'>
 						{dataOP.map(objectS => (
 							<OtherProject
 								key={objectS.Title}

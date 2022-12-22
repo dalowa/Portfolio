@@ -5,6 +5,7 @@ import PresentationS from '../components/PresentationS';
 import AboutMeS from '../components/AboutMeS';
 import ExperienceS from '../components/ExperienceS';
 import WorkS from '../components/WorkS';
+import ContactMeS from '../components/ContactMeS';
 
 const MainPage = () => {
 	return (
@@ -14,6 +15,7 @@ const MainPage = () => {
 			<AboutMeS></AboutMeS>
 			<ExperienceS></ExperienceS>
 			<WorkS></WorkS>
+			<ContactMeS></ContactMeS>
 			<Footer></Footer>
 		</>
 	);
