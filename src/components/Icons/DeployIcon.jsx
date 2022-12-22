@@ -1,4 +1,4 @@
-const DeployIcon = ({ Link }) => {
+const DeployIcon = ({ Link, Class }) => {
 	return (
 		<>
 			<a
@@ -17,7 +17,7 @@ const DeployIcon = ({ Link }) => {
 					strokeWidth='2'
 					strokeLinecap='round'
 					strokeLinejoin='round'
-					className='ProjectLink'
+					className={Class}
 				>
 					<title>External Link</title>
 					<path d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'></path>

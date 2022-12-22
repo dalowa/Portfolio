@@ -10,6 +10,7 @@ const data = [
 		RepositoryLink:
 			'https://github.com/SLeeDw20/efecto-hover-img/blob/master/estilos.css',
 		DeployLink: 'https://www.duolingo.com/learn',
+		Key: '1',
 	},
 ];
 

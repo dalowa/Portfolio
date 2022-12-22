@@ -30,7 +30,10 @@ const Project = ({
 									<GitHubICon Link={RepositoryLink} Class={Class}></GitHubICon>
 								</li>
 								<li>
-									<DeployIcon Link={DeployLink}></DeployIcon>
+									<DeployIcon
+										Link={DeployLink}
+										Class='ProjectLink'
+									></DeployIcon>
 								</li>
 							</ul>
 						</div>

@@ -1,0 +1,65 @@
+.OtherProjectBox {
+    background-color: #112240;
+
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0.2em;
+    width: 100%;
+    max-width: 200px;
+
+}
+.OtherProjectBox-top {
+    display: flex;
+    justify-content: space-between;
+    height: 3em;
+    align-items: center;
+}
+
+.TheFolder {
+    width: 40%;
+    
+    color: #64FFDA;
+}
+.project-links {
+    display: flex;
+    gap: 0.5em;
+    width: 50%;
+    
+    justify-content: flex-end  ;
+    color: #A3ACCB;
+    align-items: center;
+}
+
+.OtherProjectBox-info {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1.5em;
+}
+
+.OtherProject-title {
+    font-size: 90%;
+    color: #C1CBEB;
+    margin: 0;
+}
+.otherProject-description {
+    color: #8591B0;
+    font-size: 50%;
+}
+.OtherProjectBox-footer {
+    width: 100%;
+    font-size: 50%;
+    margin-bottom: 1em;
+}
+
+.SmallProjectLink {
+    width: 0.9em;
+}
+
+.OtherProjectBox-footer ul {
+    display: flex;
+    gap: 1em;
+}

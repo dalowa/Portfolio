@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
 }
-.WorkS-container h2 {
+.WorkS-h2 {
   color: #CCD6F6;
   text-align: start;
   font-size: 1.3em;
@@ -34,11 +34,7 @@ a {
     list-style: none;
   }
   
-  svg {
-    width: 100%;
-    height: 100%;
-    
-  }
+  
   
   img {
     width: 100%;
@@ -92,7 +88,7 @@ a {
   }
   .project-content .project-details p {
     background-color: #252525;
-    z-index: 4;
+    z-index: 2;
     position: relative;
     padding: 20px 25px;
   }
@@ -173,11 +169,12 @@ a {
   
   align-items: center;
   }
-  .OtherProjects-container h2{
+  .OtherProjects-container-title{
     margin: 0;
+    color: #CCD6F6;
     font-size: 1.2em;
   }
-  .OtherProjects-container p {
+  .OtherProjects-container-p {
     margin: 0;
     margin-top: 1em;
     color: #64FFDA;
