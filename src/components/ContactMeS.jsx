@@ -27,6 +27,11 @@ const ContactMeS = () => {
 	return (
 		<>
 			<section className='Formulario-container'>
+				<h2>Contact Me</h2>
+				<p className='Formulario-container-p'>
+					I am currently looking for opportunities, but if you have any
+					questions you can text me
+				</p>
 				<form className='Formulario' ref={form} onSubmit={sendEmail}>
 					<label>
 						<p>Name</p>
