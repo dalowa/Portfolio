@@ -52,8 +52,11 @@
     background-color: #112240;
     color: #C1CBEB;
     border: 0;
-    border-radius: 1em;
-}
+    border-style: none;
+    border-radius: 0 1em 1em 1em;
+    }
+
+ 
 .Formulario label p {
     color: #64FFDA;
     margin: 0;
@@ -76,12 +79,37 @@
     color: #64FFDA;
     border-radius: 0.5em;
 }
+.Formulario label textarea {
+    height: 7em;
 
+}
 @media only screen and (min-width: 768px){
   .Formulario {
-    width: 35%;
+    width: 20%;
   } 
   
+  .Formulario label p {
+    color: #64FFDA;
+    font-size: 0.8em;
+    margin: 0;
+}
+
+  .Formulario label input, textarea{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0.8em;
+    font-size: 0.8em;
+    width: 100%;
+    background-color: #112240;
+    color: #C1CBEB;
+    
+    
+    }
+    .Formulario label textarea {
+        height: 7em;
+
+    }
+
   .Formulario-container-p {
     width: 40%;  
     font-size: 1em;

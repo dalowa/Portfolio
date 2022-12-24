@@ -19,7 +19,7 @@ const Project = ({
 						<div className='project-label'>{Category}</div>
 						<h4 className='project-title'>{Title}</h4>
 						<div className='project-details'>
-							<p>{Description}</p>
+							<p className='project-description'>{Description}</p>
 							<ul>
 								{Technologies.map(Tech => (
 									<li>{Tech}</li>
