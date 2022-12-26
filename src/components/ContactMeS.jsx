@@ -52,7 +52,6 @@ const ContactMeS = () => {
 					</label>
 				</form>
 			</section>
-			);
 		</>
 	);
 };

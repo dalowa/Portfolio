@@ -11,7 +11,7 @@
     color: #64FFDA;
 }
 .Formulario-container h2::before {
-    content: '02.';
+    content: '04.';
     font-size: 0.8em;
     margin: 0 0.5em;
     color: #64FFDA;
