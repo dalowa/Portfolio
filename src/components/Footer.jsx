@@ -21,6 +21,9 @@ const Footer = () => {
 					<li>
 						<LinkedinIcon />
 					</li>
+					<li>
+						<div className='footer-palo'></div>
+					</li>
 				</ul>
 				<p>
 					Design based on the work of Brittany Chiang and built by David Urbano

@@ -144,3 +144,48 @@ a {
     transform: rotate(0) translate(0);
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
 }
+
+@media only screen and (min-width: 768px) {
+    .menu ul {
+        padding: 0;
+        font-size: 0.5em;
+        margin: 0 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 3em;
+        position: fixed;
+        top: 1.5em;
+        right: 0em;
+    }
+
+    .menu ul li {
+    
+        display: flex;
+        gap: 0.5em;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .noshow {
+        visibility: visible;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+    .menu ul li span {
+        margin-top: 0em;
+        border-radius: 0.3em;
+        color: #64FFDA;
+        font-size: 0.9em;
+        padding: 0.75em 1.5em;
+        border: #64FFDA solid 1px;;
+    }
+    nav {
+        height: 3em;
+    }
+    
+}

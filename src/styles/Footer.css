@@ -49,3 +49,37 @@ footer p {
     margin: 0 0.3em;
     padding: 0;
   }
+
+  @media only screen and (min-width: 768px) {
+    footer ul {
+      position: fixed;
+      left: 1.5em;
+      bottom: 0;
+      gap: 0.5em;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .TheIcon {
+      width: 0.7em;
+      height: 0.7em;
+      transition: all 0.2s ease-in-out;
+    }
+    .footer-palo {
+      width: 0.1em;
+      background-color: #CCD6F6;
+      height: 4em;
+    }
+    .TheIcon:hover {
+      color: #59E3C5;
+      transform: translate(0em, -0.2em);
+    }
+
+    footer p {
+      color: #CCD6F6;
+      text-align: center;
+      width: 70%;
+      margin: 0;
+      font-size: 0.4em;
+  }
+  }
