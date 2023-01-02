@@ -11,12 +11,12 @@
 
 @media only screen and (min-width: 768px) {
     .Logo {
-        width: 1.5em;
-        height: 1.5em;
+        width: 2.5em;
+        height: 2.5em;
         margin: 0em 2em;
         color: #64FFDA;
         display: inline;
-        top: 1em;
+        top: 1.5em;
         left: 0;
         position: fixed;
     }

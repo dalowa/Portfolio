@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 5em 0;
+    margin: 5em 0 10em 0;
 }
 .AboutMeS-container .AboutMeS-text {
     color: #828daa;
@@ -83,7 +83,7 @@
     }
 
     .AboutMeS-doble {
-        width: 50%;
+        max-width: 850px;
         display: flex;
     }
 
@@ -91,22 +91,22 @@
         margin-bottom: 1.5em;
         
         color: #CCD6F6;
-        font-size: 1em;
+        font-size: 1.5em;
     }
     .AboutMeS-container .AboutMeS-text p {
-        font-size: 0.6em;
+        font-size: 1em;
         margin-bottom: 1em;
     }
     .AboutMeS-container .AboutMeS-text span {
-        font-size: 0.6em;
+        font-size: 1em;
         
     }
     .AboutMeS-container .AboutMeS-text ul {
-        font-size: 0.5em;
+        font-size: 1em;
     }
     .AboutMeS-container .AboutMeS-image-container .AboutMeS-image-capa {
-        width: 10em;
-        height: 10em;
+        width: 18em;
+        height: 18em;
         position: relative;
     }
 }

@@ -58,6 +58,40 @@
         flex-direction: column;
         gap: 0;
         width: 100%;
-        max-width: 500px;
+        max-width: 850px;
+    }
+    .PresentationS-text-container h1 {
+        color: #59E3C5;
+        margin: 0;
+        
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+        font-family: 'Roboto Mono', monospace;
+        width: 90%;
+    
+        
+    }
+    
+    .PresentationS-text-container h2 {
+        color: #CCD6F6;
+        font-size: 3.5em;
+        margin: 0;
+        margin-bottom: 0em;
+        width: 90%;
+    }
+    
+    .PresentationS-text-container h3 {
+        color: #8892B0;
+        font-size: 2.8em;
+        margin: 0;
+        margin-bottom: 0.5em;
+        width: 100%;
+    }
+    .PresentationS-text-container p {
+        color: #7e88a5;
+        margin: 0;
+        width: 90%;
+        font-size: 1.25em;
+        margin-bottom: 5em;
     }
 }

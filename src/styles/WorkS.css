@@ -7,9 +7,9 @@
 .WorkS-h2 {
   color: #CCD6F6;
   text-align: start;
-  font-size: 1em;
+  font-size: 1.25em;
   width: 100%;
-  max-width: 650px;
+  max-width: 1050px;
 }
 .WorkS-h2::before {
   content: '02.';
@@ -46,13 +46,13 @@ a {
   }
   
   .Projects-container {
-    max-width: 650px;
+    max-width: 1050px;
     margin: 50px auto;
   }
   
 
   .project-description {
-    font-size: 0.6em;
+    font-size: 0.75em;
     
   }
 
@@ -89,19 +89,19 @@ a {
   }
   .project-content .project-label {
     color: #64ffda;
-    font-size: 0.8em;
+    font-size: 1.2em;
     font-family: monospace;
   }
   .project-content .project-title {
-    font-size: 1rem;
-    margin: 10px 0 2em 0;
+    font-size: 1.5rem;
+    margin: 10px 0 3em 0;
     position: relative;
 
     z-index: 2;
     color: #ccd6f6;
   }
   .project-content .project-details {
-    font-size: 15px;
+    font-size: 1.3em;
     line-height: 1.5;
     color: #aaa;
   }
@@ -121,7 +121,7 @@ a {
   }
   .project-content .project-details ul {
     display: flex;
-    font-size: .7em;
+    font-size: 1em;
     margin-top: 2em;
     color: #ccd6f6;
   }

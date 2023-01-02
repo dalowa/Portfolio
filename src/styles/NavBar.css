@@ -148,7 +148,7 @@ a {
 @media only screen and (min-width: 768px) {
     .menu ul {
         padding: 0;
-        font-size: 0.5em;
+        font-size: 0.8em;
         margin: 0 3em;
         display: flex;
         justify-content: center;
@@ -185,7 +185,7 @@ a {
         border: #64FFDA solid 1px;;
     }
     nav {
-        height: 3em;
+        height: 5em;
     }
     
 }
