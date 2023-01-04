@@ -55,20 +55,20 @@ footer p {
       position: fixed;
       left: 1.5em;
       bottom: 0;
-      gap: 0.5em;
+      gap: 1em;
       display: flex;
       flex-direction: column;
     }
 
     .TheIcon {
-      width: 0.7em;
-      height: 0.7em;
+      width: 1.5em;
+      height: 1.5em;
       transition: all 0.2s ease-in-out;
     }
     .footer-palo {
       width: 0.1em;
       background-color: #CCD6F6;
-      height: 4em;
+      height: 8em;
     }
     .TheIcon:hover {
       color: #59E3C5;
@@ -80,6 +80,6 @@ footer p {
       text-align: center;
       width: 70%;
       margin: 0;
-      font-size: 0.4em;
+      font-size: 1em;
   }
   }

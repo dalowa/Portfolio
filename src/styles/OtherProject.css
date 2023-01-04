@@ -5,7 +5,7 @@
     justify-content: center ;
     display: flex;
 	width: 100%;
-	max-width: 800px;
+	max-width: 1200px;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -18,7 +18,8 @@
 
 .OtherProjectBox {
     background-color: #112240;
-    max-width: 350px;
+    width: 100%;
+    max-width: 450px;
     box-sizing: border-box;
     padding: 1.5em;
     margin: 0em 0;
@@ -97,7 +98,7 @@
     .OtherProjects-container-title{
         margin: 0;
         color: #CCD6F6;
-        font-size: 1.2em;
+        font-size: 1.5em;
       }
       .OtherProjects-container-p {
         margin: 0;
@@ -107,10 +108,11 @@
       }
 
       .OtherProjectBox {
-        max-width: 200px;
+        max-width: 350px;
         
-        padding: 0.5em 1em;
+        padding: 1.75em;
       }
+
       .OtherProjectBox-top {
         display: flex;
         justify-content: space-between;
@@ -120,12 +122,12 @@
     }
     
     .TheFolder {
-        width: 1.5em;
+        width: 2.5em;
         color: #64FFDA;
     }
 
     .project-links a {
-        width: 0.7em;
+        width: 1.2em;
      }
 
     .project-links {
@@ -152,7 +154,7 @@
     }
     
     .OtherProject-title {
-        font-size: .8em;
+        font-size: 1.2em;
         color: #C1CBEB;
         margin: 0;
     }
@@ -160,12 +162,12 @@
         color: #8591B0;
         font-family: 'Nunito Sans', sans-serif;
     
-        font-size: 0.6em;
+        font-size: 1em;
     }
     .OtherProjectBox-footer {
         width: 100%;
-        font-size: 0.5em;
-        margin-bottom: 1em;
+        font-size: 1em;
+        margin: 1em 0 0 0;
     }
     
     
