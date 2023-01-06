@@ -8,7 +8,9 @@ const WorkS = () => {
 	return (
 		<>
 			<section className='WorkS-container'>
-				<h2 className='WorkS-h2'>Some Things I've Built</h2>
+				<h2 id='work' className='WorkS-h2'>
+					Some Things I've Built
+				</h2>
 				<div className='Projects-container'>
 					{data.map(object => (
 						<Project

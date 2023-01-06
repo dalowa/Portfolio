@@ -35,19 +35,16 @@ const NavBar = () => {
 				<ul className={luclass}>
 					<li>
 						<p>01.</p>
-						<a>About</a>
+						<a href='#about'>About</a>
 					</li>
+
 					<li>
 						<p>02.</p>
-						<a>Experience</a>
+						<a href='#work'>Work</a>
 					</li>
 					<li>
 						<p>03.</p>
-						<a>Work</a>
-					</li>
-					<li>
-						<p>04.</p>
-						<a>Contact</a>
+						<a href='#contact'>Contact</a>
 					</li>
 					<li>
 						<span>

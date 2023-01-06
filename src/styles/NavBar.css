@@ -97,6 +97,10 @@ a {
     justify-content: center;
     flex-direction: column;
 }
+.menu ul li:hover {
+    color: #64FFDA;
+}
+
 .menu ul li span {
     margin-top: 2em;
     border-radius: 0.3em;
@@ -104,6 +108,7 @@ a {
     font-size: 0.9em;
     padding: 1em 3em;
     border: #64FFDA solid 1px;;
+    cursor: pointer;
 }
 .noshow {
     visibility: hidden;

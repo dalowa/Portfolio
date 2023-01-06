@@ -27,7 +27,7 @@ const ContactMeS = () => {
 	return (
 		<>
 			<section className='Formulario-container'>
-				<h2>Contact Me</h2>
+				<h2 id='contact'>Contact Me</h2>
 				<p className='Formulario-container-p'>
 					I am currently looking for opportunities, but if you have any
 					questions you can text me
