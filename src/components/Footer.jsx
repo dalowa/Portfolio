@@ -28,6 +28,10 @@ const Footer = () => {
 				<p>
 					Design based on the work of Brittany Chiang and built by David Urbano
 				</p>
+				<div className='TheEmail-container'>
+					<span></span>
+					<p>david.urbano.code@gmail.com</p>
+				</div>
 			</footer>
 		</>
 	);

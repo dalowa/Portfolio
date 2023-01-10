@@ -94,12 +94,19 @@ a {
   }
   .project-content .project-title {
     font-size: 1.5rem;
-    margin: 10px 0 3em 0;
+    margin: 15px 0 3em 0;
     position: relative;
-
+    transition: color 0.25s ease-in-out;
+    width: 12em;
+    cursor: pointer;
     z-index: 2;
     color: #ccd6f6;
   }
+
+  .project-content .project-title:hover {
+    color: #64ffda;
+  }
+
   .project-content .project-details {
     font-size: 1.3em;
     line-height: 1.5;
@@ -139,7 +146,13 @@ a {
     border-radius: 2px;
     grid-column: 6/-1;
     grid-row: 1/-1;
+    transition: all 0.35s ease-in-out;
     width: 100%;
+    
+  }
+
+  .project-img:hover {
+    background: none;
   }
   @media screen and (max-width: 768px) {
     .project-img {
@@ -171,7 +184,13 @@ a {
     position: relative;
     mix-blend-mode: multiply;
     filter: grayscale(100%) contrast(1);
+    transition: filter 0.35s ease-in-out;
   }
+
+  .project-img:hover > img {
+    filter: none;
+  }
+
   @media screen and (max-width: 768px) {
     .project-img img {
       object-fit: cover;

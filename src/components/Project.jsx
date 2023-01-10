@@ -17,7 +17,9 @@ const Project = ({
 				<div className='project'>
 					<div className='project-content'>
 						<div className='project-label'>{Category}</div>
-						<h4 className='project-title'>{Title}</h4>
+						<h4 className='project-title'>
+							<a>{Title}</a>
+						</h4>
 						<div className='project-details'>
 							<p className='project-description'>{Description}</p>
 							<ul>
