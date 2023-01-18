@@ -10,6 +10,7 @@ const data = [
 		ImageLink:
 			'https://raw.githubusercontent.com/David-UM/Portfolio/main/src/assets/MyGallery.jpg',
 		RepositoryLink: 'https://github.com/David-UM/L-Gallery',
+		Year: '2022',
 		Key: 101,
 		Especial: true,
 	},
@@ -24,6 +25,7 @@ const data = [
 		ImageLink:
 			'https://raw.githubusercontent.com/David-UM/Portfolio/main/src/assets/MyGallery.jpg',
 		RepositoryLink: 'https://github.com/David-UM/L-Gallery',
+		Year: '2022',
 		Key: 101,
 		Especial: true,
 	},
@@ -38,6 +40,7 @@ const data = [
 		ImageLink:
 			'https://raw.githubusercontent.com/David-UM/Portfolio/main/src/assets/MyGallery.jpg',
 		RepositoryLink: 'https://github.com/David-UM/L-Gallery',
+		Year: '2022',
 		Key: 101,
 		Especial: true,
 	},
@@ -52,6 +55,7 @@ const data = [
 		ImageLink:
 			'https://raw.githubusercontent.com/David-UM/Portfolio/main/src/assets/MyGallery.jpg',
 		RepositoryLink: 'https://github.com/David-UM/L-Gallery',
+		Year: '2022',
 		Key: 101,
 		Especial: false,
 	},
@@ -66,6 +70,7 @@ const data = [
 		ImageLink:
 			'https://raw.githubusercontent.com/David-UM/Portfolio/main/src/assets/MyGallery.jpg',
 		RepositoryLink: 'https://github.com/David-UM/L-Gallery',
+		Year: '2022',
 		Key: 101,
 		Especial: false,
 	},
@@ -80,6 +85,7 @@ const data = [
 		ImageLink:
 			'https://raw.githubusercontent.com/David-UM/Portfolio/main/src/assets/MyGallery.jpg',
 		RepositoryLink: 'https://github.com/David-UM/L-Gallery',
+		Year: '2022',
 		Key: 101,
 		Especial: false,
 	},
@@ -94,6 +100,7 @@ const data = [
 		ImageLink:
 			'https://raw.githubusercontent.com/David-UM/Portfolio/main/src/assets/MyGallery.jpg',
 		RepositoryLink: 'https://github.com/David-UM/L-Gallery',
+		Year: '2022',
 		Key: 101,
 		Especial: false,
 	},
@@ -108,6 +115,7 @@ const data = [
 		ImageLink:
 			'https://raw.githubusercontent.com/David-UM/Portfolio/main/src/assets/MyGallery.jpg',
 		RepositoryLink: 'https://github.com/David-UM/L-Gallery',
+		Year: '2022',
 		Key: 101,
 		Especial: false,
 	},
