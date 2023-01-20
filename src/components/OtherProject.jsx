@@ -3,8 +3,8 @@ import DeployIcon from './Icons/DeployIcon';
 import GitHubIcon from './Icons/GitHubIcon';
 
 const OtherProject = ({
-	LinkRepository,
-	LinkDeploy,
+	RepositoryLink,
+	DeployLink,
 	Title,
 	Description,
 	Technologies,
@@ -32,9 +32,9 @@ const OtherProject = ({
 					<div className='project-links'>
 						<GitHubIcon
 							Class='SmallProjectLink'
-							Link={LinkRepository}
+							Link={RepositoryLink}
 						></GitHubIcon>
-						<DeployIcon Class='SmallProjectLink' Link={LinkDeploy}></DeployIcon>
+						<DeployIcon Class='SmallProjectLink' Link={DeployLink}></DeployIcon>
 					</div>
 				</div>
 				<div className='OtherProjectBox-info'>

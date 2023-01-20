@@ -1,0 +1,173 @@
+tbody tr td:nth-child(1) {
+    width: 15%;
+    text-align: center;
+  }
+  
+  tbody tr td:nth-child(2) {
+    width: 20%;
+    text-align: start;
+  }
+  
+  tbody tr td:nth-child(3) {
+    width: 40%;
+    text-align: start;
+  }
+  
+  tbody tr td:nth-child(4) {
+    width: 15%;
+    
+    text-align: center;
+  }
+
+
+
+thead th:nth-child(1) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+    text-align: start;
+  }
+  
+  thead th:nth-child(3) {
+    width: 40%;
+    text-align: start;
+  }
+  
+  thead th:nth-child(4) {
+    width: 15%;
+  }
+  .ArchivesTables-container table tbody tr {
+    border-collapse:collapse;
+   border-spacing: 0px;
+   display: table-row;
+   vertical-align: inherit;
+   border-color: inherit;
+  }
+
+  .ArchivesTables-container table tbody tr td {
+    border: none;
+  }
+
+  
+  .ArchivesTables-container table tbody tr:hover {
+    background-color: #0b1e3b;
+    
+}
+  
+
+.ArchiveIcon {
+    margin: 0 0.5em;
+    width: 1.2em;
+    transform: translate(0em, 0.25em);
+}
+
+.texts-container {
+    margin: 4em 0 2em 0;
+    width: 90%;
+    
+    
+}
+.texts-container h1 {
+    color: #CCD6F6;
+    font-size: 3em;
+}
+.texts-container h3 {
+    font-size: .9em;
+    color: #59E3C5;
+}
+
+.ArchivesTables-container {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ArchivesTables-container table {
+    table-layout: fixed;
+    border-collapse:collapse;
+    width: 100%;
+    padding: 0em;
+    margin: 0 0 7.5em 0;
+    max-width: 450px;
+}
+.ArchivesTables-container table thead {
+    color: #8892B0;
+    
+}
+
+.ArchivesTables-container table tbody {
+    color: #CCD6F6;
+}
+
+.ArchivesTables-container table tbody tr td:nth-child(1){
+    color: #5FF1D0;
+}
+
+
+
+.ArchivesTables-container table thead tr th:nth-child(3) {
+    display: none;
+}
+.ArchivesTables-container table tbody tr td:nth-child(3) {
+    display: none;
+    
+    color: #717C98;
+}
+
+
+
+.ArchivesTables-container table tbody tr td {
+    
+    padding: 15px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .ArchivesTables-container table thead tr th:nth-child(3) {
+        display: inherit;
+    }
+    .ArchivesTables-container table tbody tr td:nth-child(3) {
+        display:flex;
+    }
+    .ArchivesTables-container table {
+        table-layout: fixed;
+        width: 70%;
+        padding: 0em;
+        margin: 0 0 7.5em 0;
+        max-width: none;
+        
+    }
+
+    .texts-container {
+        margin: 4em 0 2em 0;
+        width: 70%;
+        
+        
+    }
+
+    .texts-container h1 {
+        color: #CCD6F6;
+        font-size: 5em;
+    }
+    .texts-container h3 {
+        font-size: 1.2em;
+        color: #59E3C5;
+        font-weight:lighter;
+    }
+
+
+    tbody tr td:nth-child(1) {
+        width: 5%;
+        text-align: center;
+      }
+
+      thead th:nth-child(1) {
+        width: 5%;
+      }
+     
+}

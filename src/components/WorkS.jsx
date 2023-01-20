@@ -1,10 +1,12 @@
 import './../styles/WorkS.css';
 import Project from './Project';
 import OtherProject from './OtherProject';
-import data from './../data/dataBestProjects.js';
+import data from './../data/ProyectsData.js';
 import dataOP from './../data/OtherProjects.js';
 
 const WorkS = () => {
+	const EspecialFilter = obj => obj.Especial == true;
+	const EspecialFilter2 = obj => obj.Especial == false;
 	return (
 		<>
 			<section className='WorkS-container'>
@@ -12,12 +14,12 @@ const WorkS = () => {
 					Some Things I've Built
 				</h2>
 				<div className='Projects-container'>
-					{data.map(object => (
+					{data.filter(EspecialFilter).map(object => (
 						<Project
 							key={object.Key}
 							Category={object.Category}
 							Title={object.Title}
-							Description={object.Description}
+							Description={object.DeepDescription}
 							Technologies={object.Technologies}
 							ImageLink={object.ImageLink}
 							RepositoryLink={object.RepositoryLink}
@@ -34,11 +36,11 @@ const WorkS = () => {
 						<a>view the archive</a>
 					</p>
 					<div className='OtherProjects-boxes'>
-						{dataOP.map(objectS => (
+						{data.filter(EspecialFilter2).map(objectS => (
 							<OtherProject
 								key={objectS.Title}
-								LinkRepository={objectS.LinkRepository}
-								LinkDeploy={objectS.LinkDeploy}
+								RepositoryLink={objectS.RepositoryLink}
+								DeployLink={objectS.DeployLink}
 								Title={objectS.Title}
 								Description={objectS.Description}
 								Technologies={objectS.Technologies}

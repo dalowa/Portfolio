@@ -21,12 +21,14 @@ const Footer = () => {
 					<li>
 						<LinkedinIcon />
 					</li>
-					<li>
+					<li className='footer-div'>
 						<div className='footer-palo'></div>
 					</li>
 				</ul>
 				<p>
-					Design based on the work of Brittany Chiang and built by David Urbano
+					Design based on the work of
+					<a href='https://brittanychiang.com/'>Brittany Chiang</a> and built by
+					David Urbano
 				</p>
 				<div className='TheEmail-container'>
 					<span></span>
