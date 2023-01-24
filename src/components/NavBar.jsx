@@ -1,5 +1,6 @@
 import './../styles/NavBar.css';
 import Logo from './Logo';
+import { NavLink, Link } from 'react-router-dom';
 import { useState } from 'react';
 const NavBar = () => {
 	const [burger_class, setBurgerClass] = useState('burger-bar unclicked');
@@ -35,16 +36,16 @@ const NavBar = () => {
 				<ul className={luclass}>
 					<li>
 						<p>01.</p>
-						<a href='#about'>About</a>
+						<a href='/Portfolio/#about'>About</a>
 					</li>
 
 					<li>
 						<p>02.</p>
-						<a href='#work'>Work</a>
+						<a href='/Portfolio/#work'>Work</a>
 					</li>
 					<li>
 						<p>03.</p>
-						<a href='#contact'>Contact</a>
+						<a href='/Portfolio/#contact'>Contact</a>
 					</li>
 					<li>
 						<span>

@@ -2,7 +2,7 @@ import './../styles/WorkS.css';
 import Project from './Project';
 import OtherProject from './OtherProject';
 import data from './../data/ProyectsData.js';
-import dataOP from './../data/OtherProjects.js';
+import { Link } from 'react-router-dom';
 
 const WorkS = () => {
 	const EspecialFilter = obj => obj.Especial == true;
@@ -33,7 +33,7 @@ const WorkS = () => {
 						0ther Noteworthy Projects
 					</h2>
 					<p className='OtherProjects-container-p'>
-						<a>view the archive</a>
+						<Link to='/Portfolio/archive'>view the archive</Link>
 					</p>
 					<div className='OtherProjects-boxes'>
 						{data.filter(EspecialFilter2).map(objectS => (
